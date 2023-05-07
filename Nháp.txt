@@ -1,0 +1,90 @@
+(Người dùng) Đăng nhập - Gửi tin nhắn - Nhận tin nhắn - Xử lý tin nhắn - Trả về tin nhắn - Cập nhật đoạn chat lên database
+(Nhân viên) Đăng nhập - Danh mục tin nhắn - Chọn đoạn tin nhắn - nhắn tin -X->
+
+------------------------------------------------------------
+Alternative: ✓
+Lựa chọn không, có - chuyển từ active sang điều kiện [] 
+-------------------------------
+ Quản lý | Hệ thống | Database ✓
+Thao tác | Hiển thị | xử lý 
+-------------------------------
+Database thiếu: Delivery 
+Relationship: 
+Người dùng -- Đơn hàng
+Người dùng -- Khung chat
+Nhân viên -- Khung giờ
+Đơn hàng -- Chương trình
+------------------------------- Xong
+State: được duyệt ✓
+Xác nhận đã giao ✓
+-------------------------------
+Sequence:✓
+Thêm, xóa, sửa - được dùng Trạng thái khi database trả về
+Xem - Trạng thái thay bằng trả về giao diện
+opt - Cho role
+alt - điều kiện
+Bỏ điền form
+------------------------------------------------------------
+
+------------------------------------------------------------
+- Login ✓
+- Xem chi tiết sản phẩm ✓
+- Xem chi tiết đơn hàng ✓
+1. Admin
+- Xem thông tin khách hàng ✓
+- Cập nhật thông tin khách hàng ✓
+- Xóa tài khoản khách hàng ✓
+- Xem khách hàng theo cấp bậc thanh viên ✓
+- Tạo sản phẩm ✓
+- Cập nhật sản phẩm ✓
+- Xóa sản phẩm ✓
+- Xem các đơn hàng ✓
+- Cập nhật đơn hàng ✓
+- Tạo chương trình khuyến mãi ✓
+- Cập nhật chương trình khuyến mãi ✓
+- Xóa chương trình khuyến mãi ✓
+- Tạo khảo sát ✓
+- Cập nhật khảo sát ✓
+- Xóa khảo sát ✓
+
+- Thêm nhân viên ✓
+- Xem thông tin nhân viên ✓
+- Chỉnh sửa thông tin nhân viên ✓
+- xóa nhân viên ✓
+- Thêm khung giờ làm việc ✓
+- Chỉnh sửa khung giờ làm việc ✓
+
+- Xóa khung giờ làm việc ✓
+- Xem phản hồi ✓
+- Gửi phản hồi ✓
+- Xem danh sách các tin nhắn tin nhắn ✓
+
+2. Khách hàng
+- Sign Up ✓
+- Xem thông tin cá nhân ✓
+- Chỉnh sửa thông tin cá nhân ✓
+- Xem giỏ hàng ✓
+- Cập nhật giỏ hàng ✓
+- Đặt hàng ✓
+- Làm khảo sát ✓
+- Xem các chương trình khuyến mãi ✓
+- Khung chat trực tuyến ✓
+- Yêu cầu hỗ trợ ✓
+- Xem phản hồi của yêu cầu hỗ trợ ✓
+
+3. Nhân viên
+- Chỉnh sửa thông tin khách hàng ✓
+- Chỉnh sửa chương trình khuyến mãi ✓
+- Cập nhật hóa đơn ✓
+- Thêm khảo sát  ✓
+- Chỉnh sửa khảo sát  ✓
+- Xóa khảo sát ✓
+- Cập nhật sản phẩm ✓
+- Xem thông tin cá nhân ✓
+- Xem chi tiết hóa đơn ✓
+- Xem chương trình khuyến mãi ✓
+
+- Xem chi tiết phản hồi ✓
+- Xem chi tiết khảo sát ✓
+- Xem khung giờ làm việc ✓
+- Xem danh sách các tin nhắn ✓
